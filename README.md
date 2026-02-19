@@ -10,7 +10,7 @@ O projeto está sendo desenvolvido em Java com Spring Boot e postgress como banc
 - Java 21 
 - Spring Boot
 -  Spring Data JPA
--  H2 Database (Banco em memoria para testes)
+-  Postgres 
 -  Maven
 -  Spring Security (autorização e autenticação)
 -  Spring Validation
