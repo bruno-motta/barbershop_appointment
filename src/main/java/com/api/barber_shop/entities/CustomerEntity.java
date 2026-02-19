@@ -1,4 +1,4 @@
-package com.api.barber_shop.domain.entities;
+package com.api.barber_shop.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

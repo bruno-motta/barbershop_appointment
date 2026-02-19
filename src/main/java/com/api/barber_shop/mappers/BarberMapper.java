@@ -2,8 +2,8 @@ package com.api.barber_shop.mappers;
 
 import com.api.barber_shop.dtos.BarberRequestDto;
 import com.api.barber_shop.dtos.BarberResponseDto;
-import com.api.barber_shop.domain.entities.BarberEntity;
-import com.api.barber_shop.domain.entities.enums.ActiveBarber;
+import com.api.barber_shop.entities.BarberEntity;
+import com.api.barber_shop.entities.enums.ActiveBarber;
 
 public class BarberMapper {
 

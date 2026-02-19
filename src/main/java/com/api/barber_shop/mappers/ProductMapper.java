@@ -1,6 +1,6 @@
 package com.api.barber_shop.mappers;
 
-import com.api.barber_shop.domain.entities.ProductEntity;
+import com.api.barber_shop.entities.ProductEntity;
 import com.api.barber_shop.dtos.ProductRequestDto;
 import com.api.barber_shop.dtos.ProductResponseDto;
 

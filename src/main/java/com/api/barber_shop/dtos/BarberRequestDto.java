@@ -1,6 +1,6 @@
 package com.api.barber_shop.dtos;
 
-import com.api.barber_shop.domain.entities.enums.ActiveBarber;
+import com.api.barber_shop.entities.enums.ActiveBarber;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 

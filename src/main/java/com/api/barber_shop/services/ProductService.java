@@ -1,7 +1,7 @@
 package com.api.barber_shop.services;
 
-import com.api.barber_shop.domain.entities.ProductEntity;
-import com.api.barber_shop.domain.repositories.ProductRepository;
+import com.api.barber_shop.entities.ProductEntity;
+import com.api.barber_shop.repositories.ProductRepository;
 import com.api.barber_shop.dtos.ProductRequestDto;
 import com.api.barber_shop.dtos.ProductResponseDto;
 import com.api.barber_shop.mappers.ProductMapper;

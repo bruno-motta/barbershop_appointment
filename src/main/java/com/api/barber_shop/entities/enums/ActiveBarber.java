@@ -1,4 +1,4 @@
-package com.api.barber_shop.domain.entities.enums;
+package com.api.barber_shop.entities.enums;
 
 public enum ActiveBarber {
     ATIVO,

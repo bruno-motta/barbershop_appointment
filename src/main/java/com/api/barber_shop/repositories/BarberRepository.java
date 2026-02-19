@@ -1,6 +1,6 @@
-package com.api.barber_shop.domain.repositories;
+package com.api.barber_shop.repositories;
 
-import com.api.barber_shop.domain.entities.BarberEntity;
+import com.api.barber_shop.entities.BarberEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

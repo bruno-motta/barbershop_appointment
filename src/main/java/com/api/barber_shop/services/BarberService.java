@@ -2,9 +2,9 @@ package com.api.barber_shop.services;
 
 import com.api.barber_shop.dtos.BarberRequestDto;
 import com.api.barber_shop.dtos.BarberResponseDto;
-import com.api.barber_shop.domain.entities.BarberEntity;
+import com.api.barber_shop.entities.BarberEntity;
 import com.api.barber_shop.mappers.BarberMapper;
-import com.api.barber_shop.domain.repositories.BarberRepository;
+import com.api.barber_shop.repositories.BarberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
