@@ -2,7 +2,7 @@ package com.api.barber_shop.mappers;
 
 import com.api.barber_shop.dtos.CustomerRequestDto;
 import com.api.barber_shop.dtos.CustomerResponseDto;
-import com.api.barber_shop.domain.entities.CustomerEntity;
+import com.api.barber_shop.entities.CustomerEntity;
 
 import java.time.LocalDateTime;
 
