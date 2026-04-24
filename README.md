@@ -2,7 +2,7 @@
 
 API REST para gerenciamento de clientes e barbeiros de uma barbearia.
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 - Java 21
 - Spring Boot 3
@@ -13,19 +13,19 @@ API REST para gerenciamento de clientes e barbeiros de uma barbearia.
 - H2 Database (em memória)
 - Maven
 
-## 📁 Estrutura principal
+##  Estrutura principal
 
 - `src/main/java/com/api/barber_shop/controllers` → endpoints REST
 - `src/main/java/com/api/barber_shop/services` → regras de negócio
 - `src/main/java/com/api/barber_shop/domain` → entidades e repositórios
 - `src/main/resources/db/migration` → scripts de migração Flyway
 
-## ✅ Pré-requisitos
+##  Pré-requisitos
 
 - Java 21 instalado
 - Maven 3.9+ (ou uso do wrapper `./mvnw`)
 
-## ▶️ Como executar localmente
+##  Como executar localmente
 
 1. Clone o repositório
 2. Entre na pasta do projeto
@@ -37,13 +37,13 @@ API REST para gerenciamento de clientes e barbeiros de uma barbearia.
 
 A aplicação sobe por padrão em `http://localhost:8080`.
 
-## 🧪 Executar testes
+##  Executar testes
 
 ```bash
 ./mvnw test
 ```
 
-## 🗄️ Banco de dados (H2)
+##  Banco de dados (H2)
 
 A aplicação usa banco em memória para desenvolvimento.
 
@@ -52,7 +52,7 @@ A aplicação usa banco em memória para desenvolvimento.
 - Senha: *(vazia)*
 - Console H2: `http://localhost:8080/h2-console`
 
-## 🧱 Migrações Flyway
+##  Migrações Flyway
 
 As tabelas são criadas com Flyway em:
 
@@ -60,7 +60,7 @@ As tabelas são criadas com Flyway em:
 - `V2__create_table_barber.sql`
 - `V3__create_table_service.sql`
 
-## 📌 Endpoints disponíveis
+##  Endpoints disponíveis
 
 ### Cliente (`/customer`)
 
